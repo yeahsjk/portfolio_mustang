@@ -1,0 +1,61 @@
+/* 풀페이지 섹션 05 */
+/* 섹션 05 슬라이드01 디자인 */
+.fp-viewing-page05-promotion .fp-controlArrow {display:none;}
+.fp-viewing-page05-information .fp-controlArrow {display:none;}
+
+.section05_nav_wrap {position:absolute; top:0; width:100%; height:60px; z-index:2;}
+.info_nav_wrap {padding:0 80px 0 140px;}
+.info_main_nav {width:100%; height:60px; padding:10px 0; text-align:center;}
+.info_main_nav li {float:left; width:16%; max-width:150px; height:40px; font-size:1rem; color:#f7f6ee; text-shadow:1px 1px 1px #000; word-break:keep-all; line-height:40px; -webkit-transition:all 0.6s; -o-transition:all 0.6s; transition:all 0.6s;}
+.info_main_nav li.align_right {float:right; background-color:rgba(0,52,120,0.3);}
+.info_main_nav li.align_brochure {width:22%; max-width:200px;}
+
+.info_sub_nav {display:none; width:100%;}
+.info_sub_nav li {width:100%; height:40px; line-height:40px; font-size:1rem; background:rgba(0,52,120,0.5);}
+.info_main_nav li:hover {background-color:rgba(0,52,120,1);}
+.info_main_nav li:hover .info_sub_nav {display:block;}
+.info_sub_nav li:hover {background-color:rgba(0,52,120,1);}
+
+.section05_slide_wrap {position:absolute; bottom:5%; width:50%; height:100%; padding-top:60px;}
+.support_wrap {position:relative; width:100%; height:100%;}
+
+.support_title_wrap {color:#fff; text-align:center; text-shadow:1px 1px 1px #000; position:absolute; top:50px; width:100%;}
+.support_title_wrap h2 {font-size:3.5rem;}
+.support_title_wrap p {font-size:1rem; padding:30px 10%; line-height:1.8rem;}
+
+.promotion_wrap {position:absolute; top:50%; width:80%; margin:0 10%;}
+.promotion_btn_wrap {position:relative; width:100%; background:#ccc;}
+.promo_btn {position:relative; width:30%; max-width:300px; border:1px solid #fff; -webkit-box-shadow:1px 1px 1px #000; box-shadow:1px 1px 1px #000; padding:15px 10px; font-size:1.1rem; text-align:center; color:#fff; text-shadow:1px 1px 2px #000; word-break:keep-all; -webkit-transition:0.4s; -o-transition:0.4s; transition:0.4s;}
+.promo_sales {float:left;}
+.promo_fi {float:left; margin-left:1%;}
+.promo_event {float:right;}
+.promo_btn:hover {background-color:rgba(0,52,120,0.9); width:38%;}
+
+.disclosures_wrap {position:absolute; bottom:5%; width:100%; padding:0 20%; z-index:2;}
+.disclosures_title {text-align:center; font-size:0.9rem; color:#fff;}
+.disclosures_title {padding:5px 0;}
+.disclosures_title:hover {color:#003478; background-color:#fff;}
+.disclosures_trigger {width:120px; display:none;}
+.disclosures_close {background-color:rgba(0,0,0,0.7);}
+.disclosures_text {background-color:rgba(255,255,255,0.7); color:#000;}
+.disclosures_text {padding:0 30px;}
+.disclosures_text li {list-style-type:decimal; padding:5px 0; font-size:0.9rem;}
+
+
+.shop_wrap {position:absolute; top:50%; width:80%; margin:0 10%;}
+.shop_btn_wrap {position:relative; width:100%; background:#ccc;}
+.shop_btn {position:relative; width:30%; max-width:300px; border:1px solid #fff; -webkit-box-shadow:1px 1px 1px #000; box-shadow:1px 1px 1px #000; padding:15px 10px; font-size:1.1rem; text-align:center; color:#fff; text-shadow:1px 1px 2px #000; word-break:keep-all; -webkit-transition:0.4s; -o-transition:0.4s; transition:0.4s;}
+.testdrive_btn {float:left;}
+.location_btn {float:left; margin-left:1%;}
+.brochure_btn {float:right;}
+.shop_btn:hover {background-color:rgba(0,52,120,0.9); width:38%;}
+
+@media screen and (max-width:739px) {
+
+    .info_nav_wrap {display:none;}
+    .support_title_wrap h2 {font-size:2rem;}
+    .support_title_wrap p {font-size:0.8rem; padding-top:10px;}
+    .disclosures_wrap {padding:0;}
+    .disclosures_text li {font-size:0.8rem;}
+
+}
